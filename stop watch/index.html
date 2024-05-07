@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1><center>Stop Watch</center></h1>
+
+    <div style="display: flex; justify-content: center">
+        <h1 id="min">0</h1> <h2>M</h2>
+        <h1>:</h1>
+        <h1 id="seconds">0</h1><h2>S</h2>
+        <h1>:</h1>
+        <h1 id="ms">00</h1><h2>MS</h2>
+    </div>
+
+    <div style="display: flex; justify-content: center">
+        <button id="start_btn" onclick="start()">Start</button>
+        <button onclick="stop()">Stop</button>
+        <button onclick="reset()">Reset</button>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
